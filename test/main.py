@@ -1,8 +1,9 @@
 import turtle
 n = turtle.Turtle()
-turtle.bgcolor('pink')
+n.speed(200)
 #set up but
 n.pensize(3)
+turtle.bgcolor('pink')
 
 #cua ra vào
 n.penup()
@@ -131,7 +132,6 @@ n.forward(225)
 n.pendown()
 n.left(90)
 n.forward(10)
-
 #ben phai ngoi nha
 n.penup()
 n.right(90)
@@ -166,9 +166,8 @@ n.right(180)
 n.forward(7)
 n.left(90)
 n.pendown()
-n.left(90)
-
 n.pencolor('blue')
+n.left(90)
 for i in range(3):
     n.right(90)
     n.forward(10)
@@ -247,7 +246,7 @@ n.penup()
 n.forward(6)
 n.pendown()
 
-#cot nha trai
+    #cot nha trai
 n.fillcolor('blue')
 n.begin_fill()
 for i in range(2):
@@ -257,7 +256,7 @@ for i in range(2):
     n.left(90)
 n.end_fill()
 
-   #lan can trai
+    #lan can trai
 n.penup()
 n.forward(150)
 n.right(90)
@@ -490,4 +489,10 @@ n.forward(190)
 n.right(120)
 n.forward(190)
 n.end_fill()
+
+
+
+
+
 turtle.done()
+
